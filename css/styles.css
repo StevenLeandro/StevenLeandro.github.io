@@ -1,0 +1,232 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  filter: drop-shadow(5px 3px 7px black);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+button{
+  position: relative;
+  z-index: 1;
+}
+.white-section{
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+figure{
+  display: inline-block;
+  width: 20%;
+}
+figcaption{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  filter: drop-shadow(3px 3px 3px black);
+  padding: 2px;
+}
+.A-V-logo{
+  width: 6%;
+  padding-bottom: 15px;
+}
+
+.steps-img{
+  width: 100%;
+}
+
+.ntwk-img{
+  width: 30%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.high-five {
+  width: 75rem;
+  position: fixed;
+  right: -10%;
+  top: 15%;
+  z-index: 0;
+
+}
+
+/* nave bar styles */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.feature-h3 {
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: black;
+  padding: 20px 20px 10px;
+}
+
+.features-p {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.test-h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  filter: drop-shadow(7px 1px 7px black);
+
+}
+
+.test-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+
+
+.carousel-item {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+.about-h2 {
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+.price-header {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 170%;
+}
+
+.cta-h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 7% 5%;
+  filter: drop-shadow(5px 3px 7px black);
+
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+.foot-link{
+  color: black;
+}
+
+
+
+#title {
+  background-image: linear-gradient(to bottom right,
+  var(--primary), var(--secondary));
+  color: white;
+}
+
+#features {
+  text-align: center;
+  background-color: white;
+  color: #8f8f8f;
+  padding: 7% 15%;
+  position: relative;
+
+}
+
+#testimonials {
+  text-align: center;
+  background-image: linear-gradient(var(--primary),var(--secondary));
+  color: white;
+  position: relative;
+
+}
+
+#process {
+  background-image: linear-gradient(180deg, var(--secondary),var(--primary),#008738);
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+#about {
+  padding: 100px;
+  text-align: center;
+  position: relative;
+
+}
+
+#cta {
+  background-image: linear-gradient(to top left,
+  var(--primary), var(--secondary));
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+
+
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+
+}
+
+@media (max-width: 1600px) {
+  .high-five {
+    position: fixed;
+    right: -30%;
+    top: 15%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1212px) {
+
+  #title .title-txt{
+    z-index: 3;
+ }
+}
+
+@media (max-width: 983px) {
+  .high-five {
+    display: none;
+  }
+}
